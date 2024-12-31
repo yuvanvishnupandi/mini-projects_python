@@ -1,0 +1,74 @@
+# 2. Voice Assistant
+
+This project is a simple voice assistant application using Python, which utilizes various libraries to perform voice recognition, text-to-speech conversion, and provide responses to user commands.
+
+## Features
+
+- **Speech Recognition**: Uses `speech_recognition` library to recognize voice commands.
+- **Text-to-Speech**: Uses `pyttsx3` library to convert text to speech.
+- **Wikipedia Search**: Retrieves summary from Wikipedia for a given query.
+- **Web Browsing**: Opens YouTube and Google based on voice commands.
+- **Current Time**: Tells the current time.
+- **Music Playback**: Opens Spotify to play music.
+
+## Requirements
+
+- Python 3.x
+- `tkinter`
+- `pyttsx3`
+- `speech_recognition`
+- `wikipedia`
+- `webbrowser`
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/voice-assistant.git
+    cd voice-assistant
+    ```
+
+2. Install the required packages:
+    ```bash
+    pip install pyttsx3 SpeechRecognition wikipedia
+    ```
+
+## Usage
+
+1. Run the `voiceassist.py` script:
+    ```bash
+    python voiceassist.py
+    ```
+
+2. Use the graphical interface to start and stop the voice assistant. The assistant will listen to your commands and respond accordingly.
+
+## How It Works
+
+- **Speech Recognition**: The `speech_recognition` library captures the user's voice input and converts it into text.
+- **Processing Commands**: The recognized text is processed to identify the command and perform the corresponding action.
+- **Text-to-Speech**: The `pyttsx3` library converts the response text back into speech.
+
+## Functions
+
+- `speak(text)`: Converts text to speech.
+- `greet()`: Greets the user based on the time of the day.
+- `take_command()`: Listens to the user's voice command and processes it.
+- `stop_listening()`: Stops the assistant and quits the application.
+- `process_query(query)`: Processes the recognized text to perform actions like Wikipedia search, opening web pages, telling time, and playing music.
+- `clear_text()`: Clears the text display in the interface.
+
+## Graphical Interface
+
+The application uses `tkinter` to create a simple graphical interface with the following components:
+- **Label**: Displays the title and status of the assistant.
+- **Text Display**: Shows the results of the commands.
+- **Buttons**: Start Listening, Stop Listening, and Clear Text.
+
+## Acknowledgements
+
+- [pyttsx3](https://pypi.org/project/pyttsx3/)
+- [SpeechRecognition](https://pypi.org/project/SpeechRecognition/)
+- [wikipedia](https://pypi.org/project/wikipedia/)
+- [tkinter](https://wiki.python.org/moin/TkInter)
+
+---
