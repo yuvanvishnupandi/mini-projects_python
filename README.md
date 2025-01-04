@@ -1,4 +1,4 @@
-# This repository contains a collection of Python-based utility programs, each designed to perform specific tasks. The repository includes the following applications:
+# This repository contains a collection of Python-based utility programs, each designed to perform specific tasks. The repository includes the following:
 
 1. **Simple Scientific Calculator**: An interactive scientific calculator that allows users to perform a wide range of mathematical operations, including basic arithmetic, trigonometric functions, and advanced operations like square root and exponentiation.
 
